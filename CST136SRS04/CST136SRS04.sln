@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Atoll", "Atoll\Atoll.vcxproj", "{D06406EC-533F-41FB-816B-A81D545660AF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{418EB0B6-F9EB-4DEA-AE69-47B0FDFFEEA0}"
+	ProjectSection(SolutionItems) = preProject
+		..\README.md = ..\README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D06406EC-533F-41FB-816B-A81D545660AF}.Debug|x64.ActiveCfg = Debug|x64
+		{D06406EC-533F-41FB-816B-A81D545660AF}.Debug|x64.Build.0 = Debug|x64
+		{D06406EC-533F-41FB-816B-A81D545660AF}.Debug|x86.ActiveCfg = Debug|Win32
+		{D06406EC-533F-41FB-816B-A81D545660AF}.Debug|x86.Build.0 = Debug|Win32
+		{D06406EC-533F-41FB-816B-A81D545660AF}.Release|x64.ActiveCfg = Release|x64
+		{D06406EC-533F-41FB-816B-A81D545660AF}.Release|x64.Build.0 = Release|x64
+		{D06406EC-533F-41FB-816B-A81D545660AF}.Release|x86.ActiveCfg = Release|Win32
+		{D06406EC-533F-41FB-816B-A81D545660AF}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F2180C70-37A6-4EF8-830D-76AB0E46C905}
+	EndGlobalSection
+EndGlobal

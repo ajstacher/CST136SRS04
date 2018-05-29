@@ -1,0 +1,4 @@
+﻿  stdafx.cpp
+  main.cpp
+c:\users\aj\documents\github\cst136srs04\cst136srs04\atoll\range.h(21): warning C4002: too many actual parameters for macro 'assert'
+  Atoll.vcxproj -> C:\Users\AJ\Documents\GitHub\CST136SRS04\CST136SRS04\x64\Debug\Atoll.exe
