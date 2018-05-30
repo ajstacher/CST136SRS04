@@ -147,11 +147,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="angle.h" />
+    <ClInclude Include="latitude.h" />
+    <ClInclude Include="location.h" />
+    <ClInclude Include="longitude.h" />
     <ClInclude Include="range.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="latitude.cpp" />
+    <ClCompile Include="location.cpp" />
+    <ClCompile Include="longitude.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>

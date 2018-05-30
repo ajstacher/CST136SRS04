@@ -1,3 +1,42 @@
 ﻿  main.cpp
-c:\users\aj\documents\github\cst136srs04\cst136srs04\atoll\range.h(21): warning C4002: too many actual parameters for macro 'assert'
-  Atoll.vcxproj -> C:\Users\AJ\Documents\GitHub\CST136SRS04\CST136SRS04\Debug\Atoll.exe
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.13.26128\include\xutility(2400): error C2280: 'GPS::Location &GPS::Location::operator =(const GPS::Location &)': attempting to reference a deleted function
+  c:\users\aj\documents\github\cst136srs04\cst136srs04\atoll\location.h(17): note: compiler has generated 'GPS::Location::operator =' here
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.13.26128\include\xutility(2419): note: see reference to function template instantiation '_OutIt std::_Copy_unchecked1<_InIt,_OutIt>(_InIt,_InIt,_OutIt,std::_General_ptr_iterator_tag)' being compiled
+          with
+          [
+              _OutIt=GPS::Location *,
+              _InIt=GPS::Location *
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.13.26128\include\vector(1432): note: see reference to function template instantiation '_OutIt *std::_Copy_unchecked<_Iter,GPS::Location*>(_InIt,_InIt,_OutIt)' being compiled
+          with
+          [
+              _OutIt=GPS::Location *,
+              _Iter=GPS::Location *,
+              _InIt=GPS::Location *
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.13.26128\include\vector(1450): note: see reference to function template instantiation 'void std::vector<GPS::Location,std::allocator<_Ty>>::_Assign_range<_Iter>(_Iter,_Iter,std::forward_iterator_tag)' being compiled
+          with
+          [
+              _Ty=GPS::Location,
+              _Iter=GPS::Location *
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.13.26128\include\vector(1450): note: see reference to function template instantiation 'void std::vector<GPS::Location,std::allocator<_Ty>>::_Assign_range<_Iter>(_Iter,_Iter,std::forward_iterator_tag)' being compiled
+          with
+          [
+              _Ty=GPS::Location,
+              _Iter=GPS::Location *
+          ]
+  c:\users\aj\documents\github\cst136srs04\cst136srs04\atoll\main.cpp(41): note: see reference to function template instantiation 'void std::vector<GPS::Location,std::allocator<_Ty>>::assign<_Ty*,void>(_Iter,_Iter)' being compiled
+          with
+          [
+              _Ty=GPS::Location,
+              _Iter=GPS::Location *
+          ]
+  c:\users\aj\documents\github\cst136srs04\cst136srs04\atoll\main.cpp(41): note: see reference to function template instantiation 'void std::vector<GPS::Location,std::allocator<_Ty>>::assign<_Ty*,void>(_Iter,_Iter)' being compiled
+          with
+          [
+              _Ty=GPS::Location,
+              _Iter=GPS::Location *
+          ]
+  c:\users\aj\documents\github\cst136srs04\cst136srs04\atoll\location.h(17): note: 'GPS::Location &GPS::Location::operator =(const GPS::Location &)': function was implicitly deleted because a data member 'GPS::Location::longitude_' has either no appropriate copy assignment operator or overload resolution was ambiguous
+  c:\users\aj\documents\github\cst136srs04\cst136srs04\atoll\location.h(13): note: see declaration of 'GPS::Location::longitude_'

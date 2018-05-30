@@ -18,6 +18,6 @@ public:
 template<typename T, T min, T max>
 inline Range<T, min, max>::Range(const value_type value)
 {
-	assert(value < max && value >= min, "Value is out of range!");
+	//assert(value < max && value >= min, "Value is out of range!");
 	value_ = value;
 }
