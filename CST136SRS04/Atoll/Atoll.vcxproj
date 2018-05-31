@@ -149,6 +149,7 @@
   <ItemGroup>
     <ClInclude Include="angle.h" />
     <ClInclude Include="compareByMember.h" />
+    <ClInclude Include="haversine.h" />
     <ClInclude Include="latitude.h" />
     <ClInclude Include="location.h" />
     <ClInclude Include="longitude.h" />
@@ -157,6 +158,7 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="haversine.cpp" />
     <ClCompile Include="latitude.cpp" />
     <ClCompile Include="location.cpp" />
     <ClCompile Include="longitude.cpp" />

@@ -5,7 +5,7 @@ GPS::Latitude::Latitude(const Cardinal cardinal, const int degree, const unsigne
 {
 }
 
-GPS::Latitude::Cardinal GPS::Latitude::getCardinal()
+GPS::Latitude::Cardinal GPS::Latitude::getCardinal() const
 {
 	return cardinal_;
 }

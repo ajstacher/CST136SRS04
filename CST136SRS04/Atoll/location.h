@@ -13,9 +13,15 @@ namespace GPS
 		Longitude longitude_;
 	public:
 		Location(const std::string name, const Latitude latitude, const Longitude longitude);
+
+		GPS::Latitude::Cardinal getLatCardinal() const;
 		int getLatDeg() const;
 		int getLatMin() const;
 		int getLatSec() const;
+		GPS::Longitude::Cardinal getLongCardinal() const;
+		int getLongDeg() const;
+		int getLongMin() const;
+		int getLongSec() const;
 	};
 }
 

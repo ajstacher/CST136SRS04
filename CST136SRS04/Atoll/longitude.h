@@ -9,7 +9,7 @@ namespace GPS
 
 		Longitude(const Cardinal cardinal, const int degree, const unsigned minute, const unsigned second);
 
-		Cardinal getCardinal();
+		Cardinal getCardinal() const;
 
 	private:
 		Cardinal cardinal_;

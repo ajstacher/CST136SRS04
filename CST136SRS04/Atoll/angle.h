@@ -7,9 +7,9 @@ namespace GPS
 		static_assert(min < max, "Bad template arguments");
 
 	private:
-		const int degree_ = 0;
-		const unsigned minute_ = 0;
-		const unsigned second_ = 0;
+		int degree_ = 0;
+		unsigned minute_ = 0;
+		unsigned second_ = 0;
 
 	public:
 		Angle(const int degree, unsigned minute, const unsigned second);
