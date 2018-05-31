@@ -10,7 +10,7 @@ namespace GPS
 		Latitude(const Cardinal cardinal, const int degree, const unsigned minute, const unsigned second);
 
 		Cardinal getCardinal();
-
+		
 	private:
 		Cardinal cardinal_;
 	};

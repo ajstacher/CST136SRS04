@@ -9,3 +9,5 @@ GPS::Latitude::Cardinal GPS::Latitude::getCardinal()
 {
 	return cardinal_;
 }
+
+

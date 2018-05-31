@@ -1,42 +1,30 @@
-﻿  main.cpp
-c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.13.26128\include\xutility(2400): error C2280: 'GPS::Location &GPS::Location::operator =(const GPS::Location &)': attempting to reference a deleted function
-  c:\users\aj\documents\github\cst136srs04\cst136srs04\atoll\location.h(17): note: compiler has generated 'GPS::Location::operator =' here
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.13.26128\include\xutility(2419): note: see reference to function template instantiation '_OutIt std::_Copy_unchecked1<_InIt,_OutIt>(_InIt,_InIt,_OutIt,std::_General_ptr_iterator_tag)' being compiled
+﻿  location.cpp
+  main.cpp
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.13.26128\include\algorithm(3321): error C2280: 'GPS::Location &GPS::Location::operator =(const GPS::Location &)': attempting to reference a deleted function
+  c:\users\aj\documents\github\cst136srs04\cst136srs04\atoll\location.h(19): note: compiler has generated 'GPS::Location::operator =' here
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.13.26128\include\algorithm(3507): note: see reference to function template instantiation 'void std::_Insertion_sort_unchecked<_RanIt,_Pr>(_BidIt,_BidIt,_Pr)' being compiled
           with
           [
-              _OutIt=GPS::Location *,
-              _InIt=GPS::Location *
+              _RanIt=GPS::Location *,
+              _Pr=compareByLatitude,
+              _BidIt=GPS::Location *
           ]
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.13.26128\include\vector(1432): note: see reference to function template instantiation '_OutIt *std::_Copy_unchecked<_Iter,GPS::Location*>(_InIt,_InIt,_OutIt)' being compiled
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.13.26128\include\algorithm(3518): note: see reference to function template instantiation 'void std::_Sort_unchecked<GPS::Location*,_Fn>(_RanIt,_RanIt,int,_Pr)' being compiled
           with
           [
-              _OutIt=GPS::Location *,
-              _Iter=GPS::Location *,
-              _InIt=GPS::Location *
+              _Fn=compareByLatitude,
+              _RanIt=GPS::Location *,
+              _Pr=compareByLatitude
           ]
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.13.26128\include\vector(1450): note: see reference to function template instantiation 'void std::vector<GPS::Location,std::allocator<_Ty>>::_Assign_range<_Iter>(_Iter,_Iter,std::forward_iterator_tag)' being compiled
-          with
-          [
-              _Ty=GPS::Location,
-              _Iter=GPS::Location *
-          ]
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.13.26128\include\vector(1450): note: see reference to function template instantiation 'void std::vector<GPS::Location,std::allocator<_Ty>>::_Assign_range<_Iter>(_Iter,_Iter,std::forward_iterator_tag)' being compiled
+  c:\users\aj\documents\github\cst136srs04\cst136srs04\atoll\main.cpp(61): note: see reference to function template instantiation 'void std::sort<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,compareByLatitude>(const _RanIt,const _RanIt,_Pr)' being compiled
           with
           [
               _Ty=GPS::Location,
-              _Iter=GPS::Location *
+              _RanIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<GPS::Location>>>,
+              _Pr=compareByLatitude
           ]
-  c:\users\aj\documents\github\cst136srs04\cst136srs04\atoll\main.cpp(41): note: see reference to function template instantiation 'void std::vector<GPS::Location,std::allocator<_Ty>>::assign<_Ty*,void>(_Iter,_Iter)' being compiled
-          with
-          [
-              _Ty=GPS::Location,
-              _Iter=GPS::Location *
-          ]
-  c:\users\aj\documents\github\cst136srs04\cst136srs04\atoll\main.cpp(41): note: see reference to function template instantiation 'void std::vector<GPS::Location,std::allocator<_Ty>>::assign<_Ty*,void>(_Iter,_Iter)' being compiled
-          with
-          [
-              _Ty=GPS::Location,
-              _Iter=GPS::Location *
-          ]
-  c:\users\aj\documents\github\cst136srs04\cst136srs04\atoll\location.h(17): note: 'GPS::Location &GPS::Location::operator =(const GPS::Location &)': function was implicitly deleted because a data member 'GPS::Location::longitude_' has either no appropriate copy assignment operator or overload resolution was ambiguous
-  c:\users\aj\documents\github\cst136srs04\cst136srs04\atoll\location.h(13): note: see declaration of 'GPS::Location::longitude_'
+  c:\users\aj\documents\github\cst136srs04\cst136srs04\atoll\location.h(19): note: 'GPS::Location &GPS::Location::operator =(const GPS::Location &)': function was implicitly deleted because a data member invokes a deleted or inaccessible function 'GPS::Latitude &GPS::Latitude::operator =(const GPS::Latitude &)'
+  c:\users\aj\documents\github\cst136srs04\cst136srs04\atoll\latitude.h(16): note: 'GPS::Latitude &GPS::Latitude::operator =(const GPS::Latitude &)': function was implicitly deleted because a base class invokes a deleted or inaccessible function 'GPS::Angle<-89,90> &GPS::Angle<-89,90>::operator =(const GPS::Angle<-89,90> &)'
+  c:\users\aj\documents\github\cst136srs04\cst136srs04\atoll\angle.h(21): note: 'GPS::Angle<-89,90> &GPS::Angle<-89,90>::operator =(const GPS::Angle<-89,90> &)': function was implicitly deleted because 'GPS::Angle<-89,90>' has a data member 'GPS::Angle<-89,90>::second_' of const-qualified non-class type
+  c:\users\aj\documents\github\cst136srs04\cst136srs04\atoll\angle.h(12): note: see declaration of 'GPS::Angle<-89,90>::second_'
+  Generating Code...

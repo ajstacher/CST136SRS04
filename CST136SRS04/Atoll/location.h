@@ -8,12 +8,14 @@ namespace GPS
 	class Location
 	{
 	private:
-		const std::string name_;
-		const Latitude latitude_;
-		const Longitude longitude_;
-
+		std::string name_;
+		Latitude latitude_;
+		Longitude longitude_;
 	public:
 		Location(const std::string name, const Latitude latitude, const Longitude longitude);
+		int getLatDeg() const;
+		int getLatMin() const;
+		int getLatSec() const;
 	};
 }
 

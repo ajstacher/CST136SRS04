@@ -14,9 +14,9 @@ namespace GPS
 	public:
 		Angle(const int degree, unsigned minute, const unsigned second);
 
-		int getDegree();
-		unsigned getMinute();
-		unsigned getSecond();
+		int getDegree() const;
+		unsigned getMinute() const;
+		unsigned getSecond() const;
 
 	};
 
@@ -26,17 +26,17 @@ namespace GPS
 	}
 
 	template<int min, int max>
-	inline int Angle<min, max>::getDegree()
+	inline int Angle<min, max>::getDegree() const
 	{
 		return degree_;
 	}
-	template<int min, int max>
-	inline unsigned Angle<min, max>::getMinute()
+	template<int min, int max> 
+	inline unsigned Angle<min, max>::getMinute() const
 	{
 		return minute_;
 	}
 	template<int min, int max>
-	inline unsigned Angle<min, max>::getSecond()
+	inline unsigned Angle<min, max>::getSecond() const
 	{
 		return second_;
 	}
