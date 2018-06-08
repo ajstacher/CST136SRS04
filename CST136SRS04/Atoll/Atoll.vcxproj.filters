@@ -36,9 +36,6 @@
     <ClInclude Include="location.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="compareByMember.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="haversine.h">
       <Filter>Header Files</Filter>
     </ClInclude>

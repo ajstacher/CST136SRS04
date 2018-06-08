@@ -148,7 +148,6 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="angle.h" />
-    <ClInclude Include="compareByMember.h" />
     <ClInclude Include="haversine.h" />
     <ClInclude Include="latitude.h" />
     <ClInclude Include="location.h" />

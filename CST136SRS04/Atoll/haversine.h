@@ -1,5 +1,9 @@
 #pragma once
+#include "angle.h"
+#include "latitude.h"
+#include "longitude.h"
+#include "location.h"
 
-auto haversine(const int lat1, const int lat2, const int long1, const int long2);
+double haversine(const GPS::Location & location1, const GPS::Location & location2);
 
 
