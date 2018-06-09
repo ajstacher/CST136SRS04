@@ -1,7 +1,13 @@
 # CST136SRS04
 Island Hopping
 
+Student Name: AJ Stacher
+
 Project Name: Atoll
+
+Notes: n/a
+
+Issues: Didn't use the Range template to set types, didn't understand how it was supposed to work, specified types in template
 
 Purpose:
 

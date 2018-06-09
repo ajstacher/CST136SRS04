@@ -5,7 +5,7 @@ GPS::Longitude::Longitude(const Cardinal cardinal, const int degree, const unsig
 {
 }
 
-GPS::Longitude::Cardinal GPS::Longitude::getCardinal() const 
+GPS::Longitude::Cardinal GPS::Longitude::getCardinal() const
 {
 	return cardinal_;
 }

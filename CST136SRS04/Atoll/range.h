@@ -3,7 +3,7 @@
 #include <assert.h>
 
 template<typename T, T min, T max>
-class Range // You should re-code and simplify your SRS01 RangeInt
+class Range
 {
 private:
 	using value_type = T;

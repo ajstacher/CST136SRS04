@@ -30,7 +30,7 @@ namespace GPS
 	{
 		return degree_;
 	}
-	template<int min, int max> 
+	template<int min, int max>
 	inline unsigned Angle<min, max>::getMinute() const
 	{
 		return minute_;
@@ -41,6 +41,6 @@ namespace GPS
 		return second_;
 	}
 }
-	
+
 
 
