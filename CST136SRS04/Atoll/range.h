@@ -1,7 +1,5 @@
 #pragma once
 
-#include <assert.h>
-
 template<typename T, T min, T max>
 class Range
 {

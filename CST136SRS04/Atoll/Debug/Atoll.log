@@ -1,1 +1,8 @@
-﻿  Atoll.vcxproj -> C:\Users\AJ\Documents\GitHub\CST136SRS04\CST136SRS04\Debug\Atoll.exe
+﻿  stdafx.cpp
+  haversine.cpp
+  latitude.cpp
+  location.cpp
+  longitude.cpp
+  main.cpp
+  Generating Code...
+  Atoll.vcxproj -> C:\Users\AJ\Documents\GitHub\CST136SRS04\CST136SRS04\Debug\Atoll.exe
